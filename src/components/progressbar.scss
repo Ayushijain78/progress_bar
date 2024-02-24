@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progressbar{
+    border: 1px solid ;
+    height: 20px ;
+    width: 500px;
+    border-radius: 30px;
+    background-color: #ccc;
+    position: relative;
+    overflow: hidden;
+    span{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .progreess{
+        background-color: yellowgreen;
+        height: 100%;
+    }
+}
